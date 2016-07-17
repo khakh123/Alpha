@@ -1,0 +1,74 @@
+body {
+background:url(image/pp.jpg) no-repeat top center #97cae4;
+margin:0px;
+padding:0px;
+
+}
+
+
+.login {
+
+width:300px;
+
+margin:auto;
+
+border:1px #CCC solid;
+
+padding:0px 30px 30px 30px;
+
+background-color: #FFDAB9;
+
+color:#000;
+
+}
+
+ 
+
+.field {
+
+background: #fff;
+
+border:1px #03306b solid;
+
+padding:10px;
+
+margin:5px 25px;
+
+width:215px;
+
+color:#000;
+
+}
+
+ 
+.login h1, p, .chbox, .btn {
+
+margin-left:25px;
+
+color:#000;
+
+}
+
+ 
+
+.btn {
+
+background-color: #fff;
+
+border:1px #03306b solid;
+
+padding:10px 30px;
+
+font-weight:bold;
+
+margin:25px 25px;
+
+}
+
+ 
+
+.forgot {
+
+color:#000;
+
+}
