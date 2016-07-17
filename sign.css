@@ -1,0 +1,59 @@
+body {
+background:url(image/pp.jpg) no-repeat top center #97cae4;
+margin:0px;
+padding:0px;
+
+}
+
+
+
+.contact {
+
+height:500px;
+
+width:400px;
+
+margin:auto;
+
+border:1px #5B7F34 solid;
+
+padding:10px;
+
+text-align: center;
+
+background-color: #FFDAB9;
+
+font-family:Tahoma, Geneva, sans-serif
+
+}
+
+ 
+.contact input, .contact textarea {
+
+padding:10px 20px 10px 20px;
+
+margin:10px;
+
+background-color: #fff;
+
+border:2px solid #f57c24;
+
+width:240px;
+
+}
+
+ 
+
+.contact input[type="submit"],
+
+.contact input[type="reset"]  {
+background-color : #fff;
+
+color : #000
+border : 2px solid #76A544;
+
+
+
+width:240px;
+
+}
