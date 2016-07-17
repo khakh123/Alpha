@@ -17,21 +17,30 @@
 <div class="login">
 
 <h1>Login</h1>
-<form action="1.1.html">
+<form name="login">
 
 <p>Please enter your Username and <br/>password</p>
 
 <input class="field" type="text" placeholder="Username" id="username"> 
 
-<input class="field" type="password" placeholder="Password" id="password"> 
+<input class="field" type="password" placeholder="Password" id="password"> <br>
 
-<input class="chbox" type="checkbox" name "option" value="Remember">Remember Me<br/>
+<input class="chkbx" type="checkbox" name= "option" value="Remember">Remember Me<br/>
 
-<input class="btn" type="submit" value="LOGIN">
+<input type="button" onclick="check(this.form)" value="login">
+
 
 <a href="#" class="forgot">Forgot password?</a>
-
-
+</form>
+<script language="javascript">
+function check(form)
+{
+if(form.username.value=="alpha" && form.password.value=="manjot")
+{window.open('1.html')}
+else{alert("Error Username or Password")
+}
+}
+</script>
 
  </div>
 
